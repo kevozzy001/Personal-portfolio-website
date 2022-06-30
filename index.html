@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f24fde7d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="logo-toggle">
+                <a href="#" class="nav__logo">Kevin Wang</a>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon nav__icon change-theme" id="theme-button"></i>
+                </div>
+            </div>
+            
+
+            <a href="#" class="scroll__up">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="fa-solid fa-house nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fa-solid fa-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fa-solid fa-file nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fa-solid fa-sheet-plastic nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fa-solid fa-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                
+                <i class="fa-solid fa-xmark nav__close nav__icon" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--============== Home ================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/kevin-wang-5419a517a/" class="home__social-icon" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/kevozzy001" class="home__social-icon" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:wangyimeng1216@gmail.com" class="home__social-icon" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/kevozzy001" class="home__social-icon" target="_blank">
+                            <i class="fa-solid fa-circle-user"></i>
+                        </a>
+                        
+                    </div>
+
+                    <div class="home__img">
+                       <img src="images/soul collectors copy.jpg" alt="">
+                    </div> 
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I am Kevin</h1>
+                        <h3 class="home__subtitle">Frontend developer</h3>
+                        <p class="home__description">Former character concept artist,
+                            self-learned web developer.
+                        </p>
+                        <a href="#contact" class="button button--flex contact__me-button">
+                            Contact Me <i class="fa-solid fa-circle-right button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="fa-solid fa-computer-mouse home__scroll-mouse"></i> 
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="fa-solid fa-circle-down homw__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!--============== About ================-->
+
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">Filler text is text that shares some characteristics 
+                        of a real written text, but is random or otherwise generated. 
+                        It may be used to display a sample of fonts, generate text for testing</p>
+
+                    <div class="about__info">
+                        <div>
+                            <h3 class="about__info-title">School of Art Institute of Chicago, BFA</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="about__buttons">
+                        <a href="file:///Users/yimengkevin/Desktop/Yimeng%20Wang_CV.pdf" class="button button--flex" download="Kevin's resume">
+                            <span class="download-resume">Download resume<i class="fa-solid fa-download button__icon"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!--============== Skills ================-->
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title skills__title">Skills and languages</h2>
+            <div class="container">
+                <ul class="skills__list">
+                    <li class="skills__list-items">
+                        <i class="fa-brands fa-html5 skills__list-icon"></i>
+                        <span class="skills__list-language">Html</span>
+                    </li>
+                    <li class="skills__list-items">
+                        <i class="fa-brands fa-css3 skills__list-icon"></i>
+                        <span class="skills__list-language">Css</span>
+                    </li>
+                    <li class="skills__list-items">
+                        <i class="fa-brands fa-js skills__list-icon"></i>
+                        <span class="skills__list-language">Javascript</span>
+                    </li>
+                    <li class="skills__list-items">
+                        <i class="fa-brands fa-react skills__list-icon"></i>
+                        <span class="skills__list-language">React</span>
+                    </li>
+                    <li class="skills__list-items">
+                        <i class="fa-brands fa-node skills__list-icon"></i>
+                        <span class="skills__list-language">Node.js</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+         <!--============== Portfolio ================-->
+
+         <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="portfolio__container container">
+                <div>
+                    <div class="portfolio__content grid">
+                        <img src="images/1.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Project 1</h3>
+                            <p class="portfolio__description">
+                                Text messaging, or texting, is the act of composing and sending electronic messages, 
+                                typically consisting of alphabetic and numeric characters,
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fa-solid fa-circle-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid">
+                        <img src="images/2.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Project 2</h3>
+                            <p class="portfolio__description">
+                                Text messaging, or texting, is the act of composing and sending electronic messages, 
+                                typically consisting of alphabetic and numeric characters,
+                            </p>
+                            <a href="https://kevozzy001.github.io/image-slider-and-form-validation/" class="button button--flex button--small portfolio__button" target="_blank">
+                                Demo
+                                <i class="fa-solid fa-circle-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid">
+                        <img src="images/3.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Project 3</h3>
+                            <p class="portfolio__description">
+                                Text messaging, or texting, is the act of composing and sending electronic messages, 
+                                typically consisting of alphabetic and numeric characters,
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fa-solid fa-circle-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid">
+                        <img src="images/4.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Project 4</h3>
+                            <p class="portfolio__description">
+                                Text messaging, or texting, is the act of composing and sending electronic messages, 
+                                typically consisting of alphabetic and numeric characters,
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="fa-solid fa-circle-play button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+         </section>
+
+         <!--============== Contact me ================-->
+
+         <section class="contact section" id="contact">
+            <h2 class="section__title contact__title">Contact Me</h2>
+            
+            <form class="contact__container container grid">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <button class="send button button--flex">Send
+                    <i class="fa-solid fa-paper-plane send__icon"></i>
+                </button>
+            </form>
+         </section>
+
+         <!--============== Footer ================-->
+
+         <footer class="footer"> 
+            <p>&#169; Kevin Wang. All right reserved</p>
+         </footer>
+
+        
+    </main>
+</body>
+<script src="index.js"></script>
+</html>
